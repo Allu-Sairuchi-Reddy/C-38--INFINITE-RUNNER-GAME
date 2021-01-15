@@ -38,7 +38,7 @@ function setup() {
 
 
 function draw() {
-  canvas = createCanvas(displayWidth-20,displayHeight-160);
+  canvas = createCanvas(400,400);
 background(255);
 camera.y = monkey.y;
   
