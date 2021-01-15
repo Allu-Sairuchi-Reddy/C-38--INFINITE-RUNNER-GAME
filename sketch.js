@@ -40,7 +40,6 @@ function setup() {
 function draw() {
   canvas = createCanvas(displayWidth-20,displayHeight-160);
 background(255);
-camera.x = monkey.x;
 camera.y = monkey.y;
   
   if(gameState===PLAY){
